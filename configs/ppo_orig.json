@@ -1,0 +1,22 @@
+{
+    "type": "ppo_agent",
+
+    "update_mode": {
+        "batch_size": 1024
+    },
+    "step_optimizer": {
+        "type": "adam",
+        "learning_rate": 1e-3
+    },
+    "optimization_steps": 10,
+
+    "discount": 0.99,
+    "entropy_regularization": 0.01,
+    "likelihood_ratio_clipping": 0.2,
+    "execution": {
+        "type": "single",
+        "session_config": null,
+        "distributed_spec": null
+    }
+
+}

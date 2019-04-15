@@ -1,0 +1,7 @@
+#Ignores everything but files that differs
+/__pycache__
+#/vrepConst.py
+#/vrep_env.py
+#/vrep.py
+#/remoteApi.so
+#/for_monitor.sh
